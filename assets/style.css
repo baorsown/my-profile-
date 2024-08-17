@@ -1,0 +1,312 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng bên dưới */
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  width: 92%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-2 {
+  position: absolute;
+  width: 100%;
+  bottom: -110px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-1 {
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.content-menu {
+  align-items: center;
+}
+
+.menu {
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.menu a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  color: #A692D7;
+}
+
+.icons-list {
+  padding: 0;
+  align-items: center;
+}
+
+.icons-list li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.icons-list a {
+  color: #737986;
+}
+
+.icons-list a:hover {
+  color: #A692D7;
+}
+
+.cover {
+  padding: 100px;
+  background-image: linear-gradient(to bottom right, #210dd6, #6b84d6);
+}
+
+.content-logo a{
+  display: flex;
+  align-items: center;
+}
+
+.container .content-logo img{
+  width: 130px;
+  height: 136px;
+}
+.content-logo img {
+  border-radius: 50%;
+  border: solid 3px #FFFFFF;
+  box-shadow: 1px 3px 2px 2px #F7F7F7;
+  
+}
+.icons-list img{
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+}
+.content-account {
+  margin-left: 20px;
+  align-items: center;
+}
+
+.name-account {
+  font-size: 25px;
+  margin: 20px 0px 0px 0px ;
+  font-weight: bold;
+}
+
+.title-account-color {
+  margin: 6px 0px 0px 0px;
+  color: #9399A7;
+}
+
+.title-color {
+  color: #9399A7;
+  margin-top: 0;
+  text-align: justify;
+}
+
+.title-about {
+  margin-bottom: 2rem;
+}
+
+.content-about a{
+  text-decoration: none;
+}
+
+.viewportfolio {
+  width: 105px;
+  height: 35px;
+  border: solid 1px #E2E3E6;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.follow {
+  width: 85px;
+  height: 35px;
+  color: #F9F1FD;
+  border: solid 1px #E2E3E6;
+  border-radius: 8px;
+  background-color: #7F56DA;
+}
+
+.list-links {
+  height: 98px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #F8F5FE;
+  font-weight: bold;
+  align-items: center;
+  justify-content: start;
+  border-radius: 6px;
+}
+
+.list-links li {
+  padding: 0rem 3rem 0rem 1.5rem;
+}
+
+.list-links img {
+  padding-right: 8px;
+}
+
+.list-links i {
+  padding-left: 8px;
+}
+
+.color-word {
+  font-size: 13px;
+  color: #DBCDF7;
+}
+
+.list-links a{
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.section {
+  margin-top: 9rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.section-2 {
+  width: 100%;
+  justify-content: center;
+}
+#moreContent {
+  display: none;
+}
+
+#readMoreBtn {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+#hideBtn {
+  display: none; /* Ẩn nút "Ẩn đi" ban đầu */
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.section-container {
+  width: 92%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: solid 1px #ccc;
+}
+
+.section-title {
+  font-weight: bold;
+  flex: 1;
+}
+
+.section-body {
+  justify-content: space-between;
+  flex: 4;
+}
+
+.card {
+  width: 48.9%;
+  margin: 0rem 0rem 1.5rem 0rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Bóng đổ với kích thước và màu sắc */
+  
+}
+.card .title-color{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.card-inner {
+  border: solid 1px #EEEFF1;
+  border-radius: 10px;
+}
+
+.card-icon {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  padding: 1rem;
+}
+
+.card-header {
+  padding-bottom: 0;
+}
+
+.card-footer {
+  border-top: solid 1px #EEEFF1;
+  text-align: right;
+}
+
+.card-footer a {
+  color: purple;
+  text-decoration: none;
+}
+
+.card-icon img {
+  border-radius: 50%;
+  border: solid 3px #FFFFFF;
+}
+
+.card-icon a{
+  display: flex;
+  align-items: center;
+}
+
+.color-headline {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.color-subheadings {
+  color: #878D97;
+}
+
+.card-body {
+  color: #878D97;
+}
+footer{
+  background-color: #737986;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+ footer a{
+  color: white;
+ }
